@@ -61,10 +61,10 @@ a {
 
 .hero-wrapper {
     background-color: #e6f0ff;
-    height: 100vh;
     position: relative;
     display: flex;
     flex-direction: column;
+    height: calc(100vh - 96px);
 }
 .navbar {
     display: flex;
@@ -132,7 +132,9 @@ a {
     position: absolute;
     bottom: 0;
     right: 65px;
+    max-height: 100%;
 }
+
 /* ---client--- */
 .client {
     margin-top: 79px;
